@@ -54,10 +54,16 @@ button {
   padding: 0 1.2em;
   text-align: right; }
   button:hover {
-    background: #140152; }
+    background: #140152;
+    z-index:555555 !important;
+    }
   button#deleteme {
     margin: 2rem; }
-
+.about {
+  margin-top: 100vh;
+  height: 100Vh;
+  background-color: yellow;
+}
 .scene {
   margin: 0;
   padding: 0; }
@@ -123,3 +129,6 @@ button {
     -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
             transform: rotate(0deg); }
+.name{
+    font-size: 3000%
+}
